@@ -57,7 +57,7 @@ class Calcular:
     def _gerar_resultado(self: object) -> int:
         if self.operacao == 1: # somar
             return self.valor1 + self.valor2
-        elif self.operacao == 2 # diminuir
+        elif self.operacao == 2:  # diminuir
             return self.valor1 - self.valor2
         else:
             return self.valor1 * self.valor2 # multiplicar
